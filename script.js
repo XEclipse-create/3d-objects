@@ -23,7 +23,7 @@ function init() {
     specular: 0xffffff
   });
 
-  const scaleFactor = 2.5;
+  const scaleFactor = 3;
   const tetra1 = new THREE.Mesh(new THREE.TetrahedronGeometry(scaleFactor), material);
   const tetra2 = new THREE.Mesh(new THREE.TetrahedronGeometry(scaleFactor), material);
   tetra2.rotation.y = Math.PI;
